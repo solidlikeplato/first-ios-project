@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,6 @@
 		AAA9EB1B26581B9100205FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA9EB1A26581B9100205FDA /* Assets.xcassets */; };
 		AAA9EB1E26581B9100205FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA9EB1D26581B9100205FDA /* Preview Assets.xcassets */; };
 		AAA9EB2C26581BAE00205FDA /* FirstIosProjectSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9EB2B26581BAE00205FDA /* FirstIosProjectSpec.swift */; };
-		AAA9EB3526581C2100205FDA /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = AAA9EB3426581C2100205FDA /* Quick */; };
-		AAA9EB3826581C3700205FDA /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = AAA9EB3726581C3700205FDA /* Nimble */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA9EB3526581C2100205FDA /* Quick in Frameworks */,
-				AAA9EB3826581C3700205FDA /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +136,6 @@
 			);
 			name = FirstIosProjectSpec;
 			packageProductDependencies = (
-				AAA9EB3426581C2100205FDA /* Quick */,
-				AAA9EB3726581C3700205FDA /* Nimble */,
 			);
 			productName = FirstIosProjectSpec;
 			productReference = AAA9EB2926581BAE00205FDA /* FirstIosProjectSpec.xctest */;
@@ -175,8 +169,6 @@
 			);
 			mainGroup = AAA9EB0A26581B8F00205FDA;
 			packageReferences = (
-				AAA9EB3326581C2100205FDA /* XCRemoteSwiftPackageReference "Quick" */,
-				AAA9EB3626581C3700205FDA /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = AAA9EB1426581B8F00205FDA /* Products */;
 			projectDirPath = "";
@@ -361,7 +353,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstIosProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FirstIosProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,7 +374,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstIosProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FirstIosProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,38 +455,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		AAA9EB3326581C2100205FDA /* XCRemoteSwiftPackageReference "Quick" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Quick";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		AAA9EB3626581C3700205FDA /* XCRemoteSwiftPackageReference "Nimble" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Nimble";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.2.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		AAA9EB3426581C2100205FDA /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AAA9EB3326581C2100205FDA /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		AAA9EB3726581C3700205FDA /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AAA9EB3626581C3700205FDA /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAA9EB0B26581B8F00205FDA /* Project object */;
 }
