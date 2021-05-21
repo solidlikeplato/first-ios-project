@@ -1,3 +1,4 @@
+osx_image: xcode12.5
 language: swift
 xcode_project: FirstIosProject.xcodeproj # path to your xcodeproj folder
 xcode_scheme: FirstIosProject
